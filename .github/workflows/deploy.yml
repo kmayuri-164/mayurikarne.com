@@ -68,10 +68,12 @@ jobs:
 
       - name: 📦 Upload to GitHub Pages (gh-pages)
         uses: peaceiris/actions-gh-pages@v3
+        continue-on-error: true
         with:
           personal_token: ${{ secrets.PERSONAL_TOKEN }}
           publish_dir: ./public
           external_repository: kmayuri-164/kmayuri-164
+
 
       - name: 📤 Deploy to InfinityFree via FTP
         uses: SamKirkland/FTP-Deploy-Action@v4.3.5
