@@ -1,0 +1,14 @@
+{
+  "defaults": {
+    "timeout": 20000,
+    "standard": "WCAG2AA"
+  },
+  "urls": [
+    "http://localhost:1313/",
+    "http://localhost:1313/posts/",
+    "http://localhost:1313/about/",
+    "https://mayurikarne.com/",
+    "https://mayurikarne.com/posts/",
+    "https://mayurikarne.com/about/"
+  ]
+}

@@ -1,0 +1,84 @@
+name: build, test, audit & deploy mayurikarne.com site
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  build-test-audit-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📥 Checkout code with submodules
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: ⚙️ Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.150.1'
+          extended: true
+
+      - name: ✅ Validate taxonomies via taxlimits.yaml
+        continue-on-error: true
+        run: |
+          valid_terms=$(yq e '.tags + .categories + .series' data/taxlimits.yaml | sed 's/- //g')
+          find content -name "*.md" | while read -r md; do
+            for term in $(grep -E '^(tags|categories|series):' -A3 "$md" | sed -n 's/- //p'); do
+              if ! grep -qx "$term" <<< "$valid_terms"; then
+                echo "❌ Invalid taxonomy term '$term' in $md"
+                exit 1
+              fi
+            done
+          done
+
+      - name: 🏗️ Build Hugo site
+        run: hugo --gc --minify
+
+      - name: 🚦 Run Lighthouse audits
+        uses: treosh/lighthouse-ci-action@v12
+        continue-on-error: true
+        with:
+          urls: 'https://mayurikarne.com'
+          uploadArtifacts: true
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Pa11y CLI
+        run: npm install -g pa11y-ci
+
+      - name: Cache Node.js dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.npm
+          key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-
+
+      - name: ♿ Run accessibility checks (Pa11y)
+        run: PUPPETEER_EXECUTABLE_PATH=$(which chromium-browser || which chromium || true) \
+          npx pa11y-ci --chrome-launcher-flags="--no-sandbox" --config .github/workflows/.pa11yci.json
+        continue-on-error: true
+
+      - name: 📦 Upload to GitHub Pages (gh-pages)
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          personal_token: ${{ secrets.PERSONAL_TOKEN }}
+          publish_dir: ./public
+          external_repository: kmayuri-164/kmayuri-164
+
+      - name: 📤 Deploy to InfinityFree via FTP
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_HOST }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./public/
+          server-dir: /htdocs/
+          dangerous-clean-slate: false

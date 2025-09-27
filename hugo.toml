@@ -1,0 +1,164 @@
+baseURL = "https://mayurikarne.com/"
+relativeURLs = true
+canonifyURLs = true
+languageCode = "en-us"
+title = "Mayuri Karne"
+theme = "ink-free"
+enableRobotsTXT = true
+defaultContentLanguage = "en"
+# Enable summary split marker
+summaryLength = 70
+enableGitInfo = false
+
+copyright = "© Copyright notice"
+# Demo only
+#ignoreErrors = ["error-missing-instagram-accesstoken"]
+
+
+[pagination]
+pagerSize = 10
+
+[permalinks]
+posts = "/:year/:month/:title"
+
+# RSS
+[rss]
+limit = 50
+
+disableKinds = []  # Ensure sitemap and RSS are not disabled
+
+[outputs]
+home = ["HTML", "RSS", "SITEMAP", "ROBOTS"]
+
+# Deployment config (optional)
+[deployment]
+[[deployment.targets]]
+name = "infinityfree"
+URL = "ftp://ftp.yoursite.epizy.com/htdocs"
+# Not used directly in this file, but kept for clarity
+
+[params]
+subtitle = "Software Engineering, Data Engineering, GNU/Linux, Data, ML, and other things"
+description = "Staff Data Engineer & Architect from Mumbai. Sharing insights on big data, Scala, open source, and life."
+author = { name = "Mayuri Karne" }
+favicon = "favicon.ico"
+plausibleDomain = "mayurikarne.com"
+hideReadingTime = false
+
+# Optional 64x64 avatar image.
+#avatar = "https://image.freepik.com/free-vector/young-man-head-with-beard-avatar-character_24877-36786.jpg"
+
+featherIconsCDN = false
+mermaidCDN = "https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.esm.min.mjs"
+
+# Google Analytics alternative
+enableUmami = false
+umamiURL = "https://umami.yourdomain/script.js"
+umamiWebsiteId = "123-456-789"
+
+# Site color - dark/light/auto
+mode = "auto"
+
+# Enable a table of contents:
+# Either "static"/true, "floating", "both", or "none" (default: static)
+# The floating TOC dissapears on mobile and adds 200px vertical space
+toc = "both"
+# Whether to truncate everything but H1/H2 headings if the last element in a TOC isn't visible. Enabled by default
+enableTocTrunate = true
+
+# Max tags
+maxTags = 7
+
+# Define words per minute to approximate reading time
+wpm = 250
+
+# Stupid footers :)
+footers = [
+    "What Tiger King can teach us about x86 Assembly",
+    "10 Reasons why gcc SHOULD be re-written in JavaScript - You won't believe #8!"
+]
+
+# Github base url
+github = "https://github.com/kmayuri-164/mayurikarne.com"
+
+customCSS = ["css/override.css"]
+
+# For statistics, we can compare the total word count against a book of your choice
+statisticsEnabled = true
+referenceBookWords = 11500.0
+referenceBook = "The Metamorphosis"
+referenceAuthor = "Franz Kafka"
+
+# Nav.
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 2
+
+[[menu.main]]
+name = "Tags & Stats"
+url = "/tags"
+weight = 3
+
+[[params.social]]
+name = "Github"
+icon = "github"
+url = "https://github.com/kmayuri-164/"
+
+[[params.social]]
+name = "Twitter"
+icon = "twitter"
+url = "https://twitter.com/whoami_vim/"
+
+[[params.social]]
+name = "LinkedIn"
+icon = "linkedin"
+url = "https://www.linkedin.com/in/vitthal10/"
+
+[[params.social]]
+name = "RSS"
+icon = "rss"
+url = "/index.xml"
+
+[taxonomies]
+tag = "tags"
+category = "categories"
+series = "series"
+
+# Sitemap settings
+[sitemap]
+changefreq = "weekly"
+priority = 0.5
+filename = "sitemap.xml"
+
+[markup]
+[markup.asciidocExt]
+[markup.asciidocExt.attributes]
+source-highlighter = 'rouge'
+[markup.highlight]
+codeFences = true
+guessSyntax = false
+hl_Lines = ""
+lineNoStart = 1
+lineNos = true
+lineNumbersInTable = true
+noClasses = false
+style = "monokai"
+tabWidth = 2
+wrapLongLines = true
+wrapperClass = "highlight"
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.tableOfContents]
+endLevel = 3
+ordered = true
+startLevel = 2
+
+ignoreLogs = ['warning-goldmark-raw-html', 'error-remote-getjson', 'error-output-format']
