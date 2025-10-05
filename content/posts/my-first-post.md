@@ -17,20 +17,20 @@ _Ensure solution quality
 _Build and operationalize data processing systems__
 
 Why GCP Certifications Are Important
-1. GCP is One of the Top 3 Cloud Leaders
+1.GCP is One of the Top 3 Cloud Leaders
 A GCP certification (like Professional Data Engineer or Cloud Architect) proves that you can:
 * Design and manage ETL pipelines
 * Use tools like BigQuery, Dataflow, Pub/Sub, Dataproc, Cloud Storage
 * Build secure, scalable, and reliable data solutions in the cloud
 
-2. They Boost Career Growth and Visibility
+2.They Boost Career Growth and Visibility
 Many hiring managers explicitly look for “Google Cloud Certified” professionals.
 According to Google Cloud’s own research:
 * Certified engineers see a 20–35% higher salary potential.
 * 80% of certified professionals report career advancement or new roles within a year.
 * It opens up opportunities in data engineering, cloud architecture, ML engineering, and analytics.
 
-3. They’re Globally Recognized & Future-Oriented
+3.They’re Globally Recognized & Future-Oriented
 * GCP is expanding fast in AI, ML, and DataOps, especially with Vertex AI and Gemini integrations.
 * A GCP certification positions you for future technologies, not just current ones.
 * It’s recognized by global companies across the US, Europe, and India — making your resume truly internationally competitive.
@@ -55,11 +55,7 @@ First 3 Week
 This will give you an overview of the exam and what is required to complete the certification. Understand what the exam is all 
 about.
 
-2) Visit the exam guide to see the contents in detail. You will get a solid understanding of the content you will need to prepare for the exam.
-Visit the official Google Cloud Platform documentation to clearly understand each of the GCP services. [professional_data_engineer_exam_guide_english.pdf](..%2F..%2F..%2F..%2FDownloads%2Fprofessional_data_engineer_exam_guide_english.pdf)
-These would make your GCP knowledge but you still have another essential factor to cover: “Hands-on experience”.https://cloud.google.com/docs
- 
-3)Answer the diagnostic questions from Preparing For Your Professional Data Engineering Journey.
+2) Answer the diagnostic questions from Preparing For Your Professional Data Engineering Journey.
 https://www.cloudskillsboost.google/paths/16/course_templates/72 . Completing this 8 hrs of this course will help to understand the format of questions and what content you need for preparation. 
 The diagnostic quiz after each chapter will help to identify your knowledge gap.Each chapter contains useful links/resources/labs that help you firm up your knowledge base.
 it is just like starter course , better not to skip.
