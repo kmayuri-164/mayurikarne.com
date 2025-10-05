@@ -49,8 +49,6 @@ No case study questions.
 Includes networking/security questions. These were the toughest questions if you don’t have an IT networking/security background.
 *  Pub/Sub, Storage Transfer Service, Cloud Functions, Cloud Run, Cloud Composer, Cloud Build, Identity and Access Management, Terraform.
 
-** Ok now ,how to start actual preparation and get very serious 
-
 First 3 Week
 
 1) Visit the Google Cloud Professional Data Engineer page on Google.https://cloud.google.com/learn/certification/data-engineer/
