@@ -38,8 +38,8 @@ URL = "ftp://ftp.yoursite.epizy.com/htdocs"
 # Not used directly in this file, but kept for clarity
 
 [params]
-subtitle = "Software Engineering, Data Engineering, GNU/Linux, Data, ML, and other things"
-description = "Staff Data Engineer & Architect from Mumbai. Sharing insights on big data, Scala, open source, and life."
+subtitle = "Data Engineer | Cloud | Big-data | AI-ML | Let’s talk data, code, and growth"
+description = "Just a data engineer on a journey — turning coffee into code, and curiosity into pipelines."
 author = { name = "Mayuri Karne" }
 favicon = "favicon.ico"
 plausibleDomain = "mayurikarne.com"
@@ -111,14 +111,14 @@ icon = "github"
 url = "https://github.com/kmayuri-164/"
 
 [[params.social]]
-name = "Twitter"
-icon = "twitter"
-url = "https://twitter.com/whoami_vim/"
+name = "Medium"
+icon = "Medium"
+url = "https://medium.com/"
 
 [[params.social]]
 name = "LinkedIn"
 icon = "linkedin"
-url = "https://www.linkedin.com/in/vitthal10/"
+url = "https://www.linkedin.com/in/karnemayuri/"
 
 [[params.social]]
 name = "RSS"
