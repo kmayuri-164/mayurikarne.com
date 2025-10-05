@@ -49,7 +49,7 @@ No case study questions.
 Includes networking/security questions. These were the toughest questions if you don’t have an IT networking/security background.
 *  Pub/Sub, Storage Transfer Service, Cloud Functions, Cloud Run, Cloud Composer, Cloud Build, Identity and Access Management, Terraform.
 
-** Ok now ,how to start actual preparation and let's get very serious 
+** Ok now ,how to start actual preparation and get very serious 
 
 First 3 Week
 
@@ -62,8 +62,7 @@ Visit the official Google Cloud Platform documentation to clearly understand eac
 These would make your GCP knowledge but you still have another essential factor to cover: “Hands-on experience”.https://cloud.google.com/docs
  
 3)Answer the diagnostic questions from Preparing For Your Professional Data Engineering Journey.
-https://www.cloudskillsboost.google/paths/16/course_templates/72
-Completing this 8 hrs of this course will help to understand the format of questions and what content you need for preparation. 
+https://www.cloudskillsboost.google/paths/16/course_templates/72 . Completing this 8 hrs of this course will help to understand the format of questions and what content you need for preparation. 
 The diagnostic quiz after each chapter will help to identify your knowledge gap.Each chapter contains useful links/resources/labs that help you firm up your knowledge base.
 it is just like starter course , better not to skip.
 
@@ -85,29 +84,23 @@ Cloud and increase my confidence in answering exam questions. Overall, both site
 
 
 **Final Week**
-
 Setup your laptop for the exam
-To set yourself up for success , do not reschedule it just work on preparation 
 
 **Review the diagnostic questions again**
 Heading into the final week before the exam, I think its a great place to revisit the diagnostic questions and make 
 sure you have a good understanding for each section of the PDE exam.
 
 **Review Guang Xu’s PDE cheat sheet to refresh and solidify your knowledge.**
-
 If you’re unfamiliar with certain terms or topics, do spend the time to quickly review so you won’t be caught off guard.
 
 **Closing Thoughts**
 
 Practice, practice, and practice
 
-
 I hope this helps you in your preparation and to pass your exam. Thank you for reading. Perform well and all the best!
-
 
 **Useful Links** 
 
-Useful Links
 1) Sign up for GCP Exams: https://webassessor.com/googlecloud
 2) Preparing for your Professional Data Engineering Journey:https://www.cloudskillsboost.google/paths/16/course_templates/72 
 3) Dan Sullivan’s Google Cloud Professional Data Engineering Exam Guide: https://www.oreilly.com/library/view/official-google-cloud/9781119618430/
