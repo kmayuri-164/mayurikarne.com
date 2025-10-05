@@ -112,3 +112,6 @@ Useful Links
 2) Preparing for your Professional Data Engineering Journey:https://www.cloudskillsboost.google/paths/16/course_templates/72 
 3) Dan Sullivan’s Google Cloud Professional Data Engineering Exam Guide: https://www.oreilly.com/library/view/official-google-cloud/9781119618430/
 4) https://github.com/sathishvj/awesome-gcp-certifications/tree/master
+
+Practise exam link
+https://certificationpractice.com/practice-exams/google-cloud-professional-data-engineer
