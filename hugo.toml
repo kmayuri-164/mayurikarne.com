@@ -78,7 +78,7 @@ footers = [
     "10 Reasons why gcc SHOULD be re-written in JavaScript - You won't believe #8!"
 ]
 
-# Github base url
+# Github_base url
 github = "https://github.com/kmayuri-164/mayurikarne.com"
 
 customCSS = ["css/override.css"]
