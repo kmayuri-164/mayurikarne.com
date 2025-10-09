@@ -78,7 +78,7 @@ Cloud and increase my confidence in answering exam questions. Overall, both site
 
 
 **Final Week**
-Setup your laptop for the exam
+Set up your laptop for the exam
 
 **Review the diagnostic questions again**
 Heading into the final week before the exam, I think its a great place to revisit the diagnostic questions and make 
