@@ -1,7 +1,7 @@
 +++
 date = '2025-09-27T17:44:11+05:30'
 draft = false
-title = 'From Prep to Pass: Mastering Google’s Professioanl Data Engineering Certification "
+title = 'From Prep to Pass: Mastering Google’s Professioanl Data Engineering Certification '
 +++
 
 _Hey There!_
@@ -37,7 +37,7 @@ According to Google Cloud’s own research:
 
 Exam format and registration details :
 
-Google’s Professioanl Data Engineering exam contain 50 Multiple Choice Questions which needs to be completed in 2 hrs ..
+Google’s Professioanl Data Engineering exam contain 50 Multiple Choice Questions which needs to be completed in 2 hrs
 
 Sign up for the PDE Exam: https://webassessor.com/googlecloud
 
@@ -73,7 +73,7 @@ Try out the practice exam questions from Whizlabs/ExamTopics.
 Whizlabs provides 20 free test questions (https://www.whizlabs.com/google-cloud-certified-professional-data-engineer/) 
 and offers additional paid practice tests whereas ExamTopics (https://www.examtopics.com/exams/google/)  provides a
 large but outdated question bank. For some questions, the answers on ExamTopics were unreliable so it’s important to spend 
-time exploring the discussions section for each question. I found this approach helpful because it lead me to finding useful documentation to read on Google
+time exploring the discussions section for each question. I found this approach helpful because it will lead me to finding useful documentation to read on Google
 Cloud and increase my confidence in answering exam questions. Overall, both sites provide a good approximation to the questions you might see in the actual PDE exam.
 
 
@@ -81,7 +81,7 @@ Cloud and increase my confidence in answering exam questions. Overall, both site
 Set up your laptop for the exam
 
 **Review the diagnostic questions again**
-Heading into the final week before the exam, I think its a great place to revisit the diagnostic questions and make 
+Heading into the final week before the exam, I think it's a great place to revisit the diagnostic questions and make 
 sure you have a good understanding for each section of the PDE exam.
 
 **Review Guang Xu’s PDE cheat sheet to refresh and solidify your knowledge.**
