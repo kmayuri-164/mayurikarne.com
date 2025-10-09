@@ -91,7 +91,8 @@ If you’re unfamiliar with certain terms or topics, do spend the time to quickl
 
 Practice, practice, and practice
 
-I hope this helps you in your preparation and to pass your exam. Thank you for reading. Perform well and all the best!
+I hope this helps you in your preparation and to pass your exam. Thank you for reading. 
+Perform well and all the best!
 
 **Useful Links** 
 
