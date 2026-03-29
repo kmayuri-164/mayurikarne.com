@@ -2,6 +2,7 @@
 date = '2026-03-29T00:00:00+05:30'
 draft = false
 title = 'DSA Patterns'
+aliases = ['/dsa-patterns']
 +++
 
 Got it — I followed your instructions strictly: deep research (LeetCode discuss, blogs, Reddit insights), and now I’m giving you a **complete, structured DSA pattern system** with:
