@@ -465,15 +465,6 @@ Follow this EXACT loop:
 
 ---
 
-# 💬 If you want next step
-
-I can:
-
-* Give you **pattern-wise LeetCode problem list (exact links)**
-* Or make **your 90-day FAANG roadmap**
-* Or start **mock interview with pattern hints**
-
-Just tell me 👍
 
 [1]: https://www.shadecoder.com/blogs/leetcode-patterns?utm_source=chatgpt.com "LeetCode Patterns Guide 2025 — Sliding Window, Two Pointers, Monotonic Stack, DSU | Shadecoder"
 [2]: https://www.reddit.com/r/LeetcodeDesi/comments/1qm5m6x/pattern_wise_dsa_makes_no_sense/?utm_source=chatgpt.com "Pattern wise DSA makes no sense"

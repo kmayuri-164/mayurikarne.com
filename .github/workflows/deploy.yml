@@ -68,19 +68,8 @@ jobs:
 
       - name: 📦 Upload to GitHub Pages (gh-pages)
         uses: peaceiris/actions-gh-pages@v3
-        continue-on-error: true
         with:
           personal_token: ${{ secrets.PERSONAL_TOKEN }}
           publish_dir: ./public
+          force_orphan: true
           external_repository: kmayuri-164/kmayuri-164
-
-
-      - name: 📤 Deploy to InfinityFree via FTP
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
-        with:
-          server: ${{ secrets.FTP_HOST }}
-          username: ${{ secrets.FTP_USERNAME }}
-          password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./public/
-          server-dir: mayurikarne.com/htdocs/
-          dangerous-clean-slate: false
